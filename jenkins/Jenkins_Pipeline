@@ -4,7 +4,7 @@ pipeline {
                stage ('listing_script') {
                steps {
          sh '''
-               echo listing scripts from github repo"
+               echo "listing scripts from github repo"
               ls ${WORKSPACE}/
              '''
           }
@@ -12,7 +12,7 @@ pipeline {
         stage ('Executing_Scripts') {
               steps {
                 sh '''
-                      echo build is sucessful on stage 2"
+                      echo "build is sucessful on stage 2"
                       bash ${WORKSPACE}/linux/Sample_Script.sh
                   '''
            }
