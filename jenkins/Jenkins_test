@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                       echo " Build is completed on stage2 "
-               bash ${WORKSPACE}/linux/Sample_Script.sh 
+               bash ${WORKSPACE}/linux/if_Condition_statments.sh 
                    '''
             }
         }
