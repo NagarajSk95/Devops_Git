@@ -13,7 +13,7 @@ pipeline {
               steps {
                 sh '''
                       echo build is sucessful on stage 2"
-                      bash ${WORKSPACE}/linux/script.sh
+                      bash ${WORKSPACE}/linux/Sample_Script.sh
                   '''
            }
         }
