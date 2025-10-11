@@ -1,0 +1,16 @@
+Pipeline {
+agent any ()
+stages {
+        stage ('listing_script') {
+steps {
+         sh "echo listing scripts from github repo"
+          }
+       }
+
+Stage ('Executing_Scripts') {
+steps {
+       sh "echo build is sucessful on stage 2"
+           }
+        }
+    }
+}
