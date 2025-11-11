@@ -1,0 +1,2 @@
+from nigsx
+Echo " Welcome to the world"
