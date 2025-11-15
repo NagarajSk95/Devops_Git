@@ -16,7 +16,7 @@ COPY . .
 #Install the dependecies
 RUN npm install
 
-EXPOSE 9000
+EXPOSE 8000
 
 
 
